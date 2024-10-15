@@ -6,5 +6,3 @@ include:
   - board: seeeduino_xiao_ble
     shield: totem_dongle
     snippet: zmk-usb-logging
-  - board: seeduino_xiao_ble
-    snippet: settings_reset
