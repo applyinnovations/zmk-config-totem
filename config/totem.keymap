@@ -78,10 +78,10 @@
         user-interface {
             label = "UI";
             bindings = <
-       &none  &none                   &none                &none                 &none     &none     &none                 &none              &none            &none
-       &none  &mt LEFT_CONTROL SPACE  &mt LEFT_META SPACE  &mt LEFT_SHIFT SPACE  &none     &kp LEFT  &mt RIGHT_SHIFT DOWN  &mt RIGHT_META UP  &mt RCTRL RIGHT  &none
-&none  &none  &none                   &none                &none                 &none     &none     &kp PG_DN             &kp PG_UP          &none            &none  &none
-                                      &trans               &trans                &trans    &trans    &trans                &trans
+       &none  &none                   &none                &none                 &none     &none     &none      &none      &none      &none
+       &none  &mt LEFT_CONTROL SPACE  &mt LEFT_META SPACE  &mt LEFT_SHIFT SPACE  &none     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none
+&none  &none  &none                   &none                &none                 &none     &none     &kp PG_DN  &kp PG_UP  &none      &none  &none
+                                      &trans               &trans                &trans    &trans    &trans     &trans
             >;
         };
 
